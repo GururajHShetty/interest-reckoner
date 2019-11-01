@@ -1,8 +1,3 @@
-This project was bootstrapped with [interest-reckoner](https://github.com/facebook/create-react-app).
-
-### `project url`
-
-
 ### `Interest Reckoner`
 
 * This app is automated interest reckoner(device designed to assist with calculation).
@@ -13,4 +8,4 @@ This project was bootstrapped with [interest-reckoner](https://github.com/facebo
 
 #### sample screenshot
 
-![IR](https://user-images.githubusercontent.com/54133903/68025054-e57c3e00-fcd1-11e9-8af7-7cad1ac8c10e.PNG)
+![IR](https://user-images.githubusercontent.com/54133903/68025383-98e53280-fcd2-11e9-9a18-100a0869edba.PNG)
