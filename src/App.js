@@ -4,12 +4,8 @@ import Slider from './components/Slider'
 function App() {
   return (
     <div className="container" >
-      <h1><span className="badge badge-info">INTEREST RECKONER</span></h1>
-      <div className="row" >
-        <div className="col-md-8" ><br/>
+      <h1><span className="badge badge-success">INTEREST RECKONER</span></h1><hr/>
           <Slider/>
-        </div>
-      </div>
     </div>
   )
 }
