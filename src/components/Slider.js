@@ -102,7 +102,7 @@ export default class Slider extends React.Component {
                     <div className="form-group row">
                         <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</label>
                         <div className="col-sm-10">
-                            <input type="range" className="form-control-range" id="duration" name="duration" min="6" max="24" step="1" value={this.state.duration} onChange={this.handleChange} onMouseUpCapture={this.handleCalculate} />
+                            <input type="range" className="form-control-range" id="duration" name="duration" min="6" max="24" step="1" value={this.state.duration} onChange={this.handleChange} onMouseUpCapture={this.handleCalculate} onTouchEnd={this.handleCalculate} />
                         </div>
                         <label>24</label>
                     </div>
