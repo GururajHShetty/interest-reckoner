@@ -25,6 +25,9 @@ export default function History(props) {
                                                 onClick={() => {
                                                     props.handleClick(data)
                                                 }}
+                                                onTouchEnd={() => {
+                                                    props.handleClick(data)
+                                                }}
                                             >
                                                 <tr>
                                                     <td>{data.amount}</td>
