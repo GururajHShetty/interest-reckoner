@@ -94,7 +94,7 @@ export default class Slider extends React.Component {
                     <div className="form-group row">
                         <label>$500</label>
                         <div className="col-sm-10">
-                            <input type="range" className="form-control-range" id="amount" name="amount" min="500" max="5000" step="1" value={this.state.amount} onChange={this.handleChange} onMouseUpCapture={this.handleCalculate} />
+                            <input type="range" className="form-control-range" id="amount" name="amount" min="500" max="5000" step="1" value={this.state.amount} onChange={this.handleChange} onMouseUpCapture={this.handleCalculate} onTouchEnd={this.handleCalculate} />
                         </div>
                         <label>$5000</label>
                     </div>
@@ -109,11 +109,11 @@ export default class Slider extends React.Component {
                     <h4><span className="badge badge-light">EMI DETAILS</span></h4><br />
                     <div className="card col-md-12" >
                         <div className="card-header row"><li className="list-group-item">Amount : {this.state.amount}$</li><li className="list-group-item">Duration : {this.state.duration} months </li>
-                        <button type="button" className="btn btn-warning"
-                            onClick={() => {
-                                this.handleClear()
-                            }}
-                        >Reset</button>
+                            <button type="button" className="btn btn-warning"
+                                onClick={() => {
+                                    this.handleClear()
+                                }}
+                            >Reset</button>
                         </div>
                         {
                             this.state.isLoading ? (
@@ -143,7 +143,7 @@ export default class Slider extends React.Component {
                     </div>
                 </div>
                 <div className="col-md-4 offset-md-2">
-                    <History handleClick={this.handleClick}/>
+                    <History handleClick={this.handleClick} />
                 </div>
             </div >
         )
