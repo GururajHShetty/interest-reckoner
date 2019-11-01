@@ -5,6 +5,7 @@
 * Each selection will be saved locally and displayed in right history sidebar.
 * User can click on any combination listed in history section, it will populate the data, align the slider and displays the result.
 * history will persists untill user clicks on reset button 
+* https://interest-reckoner.herokuapp.com
 
 #### sample screenshot
 
